@@ -1,0 +1,51 @@
+/* @import url("https://stockfont.org/?e737339e9e508b2b0b2a8a2f041ca026e31d3abf3982b30bf6e9967e520329dc%22); */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #778baf;
+  font-family: "Oxygen-Regular", times, verdana, sans-serif;
+}
+.Register {
+  width: 350px;
+  margin: auto;
+  overflow: hidden;
+  padding: 50px;
+  background: #333;
+  border-radius: 25px;
+}
+h1 {
+  text-align: center;
+  color: #000000;
+  padding: 20px;
+}
+label {
+  color: #778baf;
+}
+input {
+  /* margin: 20px;
+  width: 20vw;
+  height: 4vh; */
+
+  width: 300px;
+  height: 30px;
+  border-radius: 3px;
+  margin: 10px;
+  border: none;
+}
+
+input:focus {
+  background-color: #814599a9;
+  transition: 0.5s;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  color: #333;
+  margin: 10px;
+}
+button:hover {
+  background-color: #814599a9;
+  transition: 0.5s;
+}
